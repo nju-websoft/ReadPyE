@@ -1,0 +1,9 @@
+VALIDATION_NUM = 5
+
+CANDIDATE_NUM = VALIDATION_NUM + 1
+
+SIM_THRESHOLD = 0.6
+
+NEO4J_URI = 'bolt://localhost:7687'
+NEO4J_USER = 'neo4j'
+NEO4J_PWD = 'neo4j'

@@ -1,0 +1,5 @@
+{
+    "dockerfile_dir": "examples/3979513",
+    "source_name": "snippet.py",
+    "cmd": "python snippet.py"
+}
