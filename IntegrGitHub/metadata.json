@@ -1,0 +1,1878 @@
+[
+    {
+        "id": "0",
+        "name": "tiler",
+        "coderoot": "0/tiler",
+        "url": "https://github.com/nuno-faria/tiler",
+        "run": [],
+        "cmd": "cd tiler && python gen_tiles.py images/cake_at_simple.png",
+        "desc": "Build images with images ",
+        "tag": [
+            "CV"
+        ],
+        "project_type": "application",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "numpy==1.23.2",
+                "opencv-python-headless==4.6.0.66",
+                "tqdm==4.64"
+            ]
+        }
+    },
+    {
+        "id": "1",
+        "name": "metaflow",
+        "coderoot": "1/metaflow/metaflow",
+        "url": "https://github.com/Netflix/metaflow",
+        "run": [],
+        "cmd": "cd metaflow && python test.py",
+        "desc": "Build and manage real-life data science projects with ease.",
+        "tag": [
+            "ML/DL"
+        ],
+        "project_type": "pure 3rd-party package",
+        "envs": {
+            "pyver": "2.7.18",
+            "pv_list": [
+                "setuptools==44.1.1",
+                "click==7.1.2",
+                "requests==2.27.1"
+            ]
+        }
+    },
+    {
+        "id": "11",
+        "name": "OneForAll",
+        "coderoot": "11/OneForAll",
+        "url": "https://github.com/shmilylty/OneForAll",
+        "run": [],
+        "cmd": "cd OneForAll && python oneforall.py --target example.com run",
+        "desc": "OneForAll\u662f\u4e00\u6b3e\u529f\u80fd\u5f3a\u5927\u7684\u5b50\u57df\u6536\u96c6\u5de5\u5177 ",
+        "tag": [
+            "Internet"
+        ],
+        "project_type": "application",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "tenacity==8.0.1",
+                "fire==0.4",
+                "exrex==0.10.5",
+                "sqlalchemy==1.4.40",
+                "idna==3.3",
+                "dnspython==2.2.1",
+                "treelib==1.6.1",
+                "loguru==0.6",
+                "tqdm==4.64",
+                "cdx-toolkit==0.9.34",
+                "beautifulsoup4==4.11.1",
+                "requests==2.28.1"
+            ]
+        }
+    },
+    {
+        "id": "13",
+        "name": "akshare",
+        "coderoot": "13/akshare/akshare",
+        "url": "https://github.com/jindaxiang/akshare",
+        "run": [],
+        "cmd": "cd akshare && python test.py",
+        "desc": "\u5f00\u6e90\u8d22\u7ecf\u6570\u636e\u63a5\u53e3\u5e93 ",
+        "tag": [
+            "finance",
+            "database"
+        ],
+        "project_type": "pure 3rd-party package",
+        "envs": {
+            "pyver": "3.6.15",
+            "pv_list": [
+                "websocket-client==0.15",
+                "tabulate==0.8.10",
+                "pillow==8.4",
+                "py-mini-racer==0.6",
+                "decorator==5.1.1",
+                "lxml==4.9.1",
+                "urllib3==1.21.1",
+                "pypinyin==0.47",
+                "matplotlib==3.3.4",
+                "numpy==1.19.5",
+                "appdirs==1.4.4",
+                "demjson==2.2.4",
+                "jsonpath==0.82",
+                "beautifulsoup4==4.11.1",
+                "requests==2.18",
+                "pandas==1.1.5",
+                "tqdm==4.64"
+            ]
+        }
+    },
+    {
+        "id": "14",
+        "name": "ASCII-generator",
+        "coderoot": "14/ASCII-generator",
+        "url": "https://github.com/uvipen/ASCII-generator",
+        "run": [],
+        "cmd": "cd ASCII-generator && python img2img.py",
+        "desc": "ASCII generator (image to text, image to image, video to video) ",
+        "tag": [
+            "CV"
+        ],
+        "project_type": "application",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "numpy==1.23.2",
+                "opencv-python-headless==4.6.0.66",
+                "pillow==9.2"
+            ]
+        }
+    },
+    {
+        "id": "15",
+        "name": "pyts",
+        "coderoot": "15/pyts/pyts",
+        "url": "https://github.com/johannfaouzi/pyts",
+        "run": [
+            "pip install matplotlib"
+        ],
+        "cmd": "cd pyts && python plot_dft.py",
+        "desc": "A Python package for time series classification ",
+        "tag": [
+            "ML/DL"
+        ],
+        "project_type": "application",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "numpy==1.17.5",
+                "joblib==1.1",
+                "scipy==1.8.1",
+                "numba==0.53.1",
+                "scikit-learn==1.1.2",
+                "pytest==7.1.2"
+            ]
+        }
+    },
+    {
+        "id": 16,
+        "name": "SimCSE",
+        "coderoot": "16/SimCSE/simcse",
+        "url": "https://github.com/princeton-nlp/SimCSE",
+        "run": [],
+        "cmd": "cd SimCSE && python test.py",
+        "desc": "SimCSE: Simple Contrastive Learning of Sentence Embeddings ",
+        "tag": [
+            "ML/DL",
+            "NLP"
+        ],
+        "project_type": "pure 3rd-party package",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "filelock==3.8",
+                "numpy==1.23.2",
+                "sente==0.4.2",
+                "tqdm==4.64",
+                "torch==1.7.1",
+                "packaging==21.3",
+                "scikit-learn==1.1.2",
+                "transformers==4.21.1"
+            ]
+        }
+    },
+    {
+        "id": 17,
+        "name": "ResNeSt",
+        "coderoot": "17/ResNeSt/resnest",
+        "url": "https://github.com/zhanghang1989/ResNeSt",
+        "run": [],
+        "cmd": "cd ResNeSt && python test.py",
+        "desc": " ResNeSt: Split-Attention Networks ",
+        "tag": [
+            "ML/DL",
+            "CV"
+        ],
+        "project_type": "pure 3rd-party package",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "pillow==9.0.1",
+                "numpy==1.23.2",
+                "tqdm==4.64",
+                "torch==1.7.1",
+                "requests==2.28.1",
+                "mxnet==2b1"
+            ]
+        }
+    },
+    {
+        "id": 18,
+        "name": "OpenData",
+        "coderoot": "18/OpenData/opendatatools",
+        "url": "https://github.com/PKUJohnson/OpenData",
+        "run": [],
+        "cmd": "cd OpenData && python test.py",
+        "desc": "\u5f00\u6e90\u7684\u91d1\u878d\u6295\u8d44\u6570\u636e\u63d0\u53d6\u5de5\u5177\uff0c\u4e13\u6ce8\u5728\u5404\u7c7b\u7f51\u7ad9\u4e0a\u722c\u53d6\u6570\u636e\uff0c\u5e76\u901a\u8fc7\u7b80\u5355\u6613\u7528\u7684API\u65b9\u5f0f\u4f7f\u7528 ",
+        "tag": [
+            "finance"
+        ],
+        "project_type": "pure 3rd-party package",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "progressbar==2.3",
+                "pillow==9.2",
+                "numpy==1.23.2",
+                "pycryptodome==3.15",
+                "demjson==2.2.4",
+                "beautifulsoup4==4.11.1",
+                "requests==2.28.1",
+                "pytesseract==0.3.10",
+                "pandas==1.4.3"
+            ]
+        }
+    },
+    {
+        "id": 19,
+        "name": "w9scan",
+        "coderoot": "19/w9scan",
+        "url": "https://github.com/w-digital-scanner/w9scan",
+        "run": [],
+        "cmd": "cd w9scan && python w9scan.py -u \"https://x.hacking8.com\"",
+        "desc": "Plug-in type web vulnerability scanner ",
+        "tag": [
+            "Internet",
+            "security"
+        ],
+        "project_type": "application",
+        "envs": {
+            "pyver": "2.7.18",
+            "pv_list": [
+                "micropython-posixpath==0"
+            ]
+        }
+    },
+    {
+        "id": "2",
+        "name": "tinygrad",
+        "coderoot": "2/tinygrad/tinygrad",
+        "url": "https://github.com/geohot/tinygrad",
+        "run": [],
+        "cmd": "cd tinygrad && python test.py",
+        "desc": "You like pytorch? You like micrograd? You love tinygrad.",
+        "tag": [
+            "ML/DL"
+        ],
+        "project_type": "pure 3rd-party package",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "numpy==1.23.2",
+                "pyopencl==2022.1.6"
+            ]
+        }
+    },
+    {
+        "id": 20,
+        "name": "RAdam",
+        "coderoot": "20/RAdam/radam",
+        "url": "https://github.com/LiyuanLucasLiu/RAdam",
+        "run": [],
+        "cmd": "cd RAdam && python test.py",
+        "desc": "On the Variance of the Adaptive Learning Rate and Beyond ",
+        "tag": [
+            "ML/DL"
+        ],
+        "project_type": "pure 3rd-party package",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "torch==1.12.1"
+            ]
+        }
+    },
+    {
+        "id": 21,
+        "name": "newscatcher",
+        "coderoot": "21/newscatcher/newscatcher",
+        "url": "https://github.com/kotartemiy/newscatcher",
+        "run": [],
+        "cmd": "cd newscatcher && python test.py",
+        "desc": "Programmatically collect normalized news from (almost) any website. ",
+        "tag": [
+            "Internet"
+        ],
+        "project_type": "pure 3rd-party package",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "setuptools==65.0.2",
+                "feedparser==6.0.10",
+                "tldextract==3.3.1"
+            ]
+        }
+    },
+    {
+        "id": 22,
+        "name": "GitHub520",
+        "coderoot": "22/GitHub520",
+        "url": "https://github.com/521xueweihan/GitHub520",
+        "run": [],
+        "cmd": "cd GitHub520 && python fetch_ips.py",
+        "desc": "\u8ba9\u4f60\u201c\u7231\u201d\u4e0a GitHub\uff0c\u89e3\u51b3\u8bbf\u95ee\u65f6\u56fe\u88c2\u3001\u52a0\u8f7d\u6162\u7684\u95ee\u9898\u3002",
+        "tag": [
+            "Internet"
+        ],
+        "project_type": "application",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "requests==2.28.1",
+                "retry==0.9.2"
+            ]
+        }
+    },
+    {
+        "id": 23,
+        "name": "vit-pytorch",
+        "coderoot": "23/vit-pytorch",
+        "url": "https://github.com/lucidrains/vit-pytorch",
+        "run": [],
+        "cmd": "cd vit-pytorch && python test.py",
+        "desc": "Implementation of Vision Transformer, a simple way to achieve SOTA in vision classification with only a single transformer encoder, in Pytorch ",
+        "tag": [
+            "ML/DL",
+            "CV"
+        ],
+        "project_type": "pure 3rd-party package",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "einops==0.4.1",
+                "setuptools==65.0.2",
+                "torch==1.12.1"
+            ]
+        }
+    },
+    {
+        "id": 24,
+        "name": "Flask-HTTPAuth",
+        "coderoot": "24/Flask-HTTPAuth/src",
+        "url": "https://github.com/miguelgrinberg/Flask-HTTPAuth",
+        "run": [],
+        "cmd": "cd Flask-HTTPAuth/src && python test.py",
+        "desc": "Simple extension that provides Basic, Digest and Token HTTP authentication for Flask routes ",
+        "tag": [
+            "development"
+        ],
+        "project_type": "pure 3rd-party package",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "werkzeug==2.2.2",
+                "flask==2.2.2"
+            ]
+        }
+    },
+    {
+        "id": 25,
+        "name": "real-url",
+        "coderoot": "25/real-url/huya.py",
+        "url": "https://github.com/wbt5/real-url",
+        "run": [],
+        "cmd": "cd real-url && python huya.py",
+        "desc": "\u83b7\u53d6\u6597\u9c7c&\u864e\u7259&\u54d4\u54e9\u54d4\u54e9&\u6296\u97f3&\u5feb\u624b\u7b49 48 \u4e2a\u76f4\u64ad\u5e73\u53f0\u7684\u771f\u5b9e\u6d41\u5a92\u4f53\u5730\u5740(\u76f4\u64ad\u6e90)\u548c\u5f39\u5e55\uff0c\u76f4\u64ad\u6e90\u53ef\u5728 PotPlayer\u3001flv.js \u7b49\u64ad\u653e\u5668\u4e2d\u64ad\u653e",
+        "tag": [
+            "Internet",
+            "CV"
+        ],
+        "project_type": "application",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "requests==2.28.1"
+            ]
+        }
+    },
+    {
+        "id": 26,
+        "name": "clearml",
+        "coderoot": "26/clearml/clearml",
+        "url": "https://github.com/allegroai/clearml",
+        "run": [],
+        "cmd": "cd clearml && python test.py",
+        "desc": "ClearML - Auto-Magical Suite of tools to streamline your ML workflow. Experiment Manager, ML-Ops and Data-Management ",
+        "tag": [
+            "ML/DL",
+            "development"
+        ],
+        "project_type": "pure 3rd-party package",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "urllib3==1.26.11",
+                "six==1.16",
+                "python-dateutil==2.8.2",
+                "pathlib2==2.3.7.post1",
+                "matplotlib==3.4.3",
+                "numpy==1.23.2",
+                "pyyaml==6",
+                "attrs==22.1",
+                "greenlet==2a2",
+                "gevent==21.12",
+                "pyparsing==2.4.7",
+                "pyjwt==2.4",
+                "psutil==5.9.1",
+                "humanfriendly==10",
+                "pillow==9.2",
+                "requests==2.28.1",
+                "furl==2.1.3",
+                "jsonschema==4.10.2",
+                "py3socket==0.2.1.3"
+            ]
+        }
+    },
+    {
+        "id": 27,
+        "name": "captum",
+        "coderoot": "27/captum/captum",
+        "url": "https://github.com/pytorch/captum",
+        "run": [],
+        "cmd": "cd captum && python test.py",
+        "desc": "Model interpretability and understanding for PyTorch ",
+        "tag": [
+            "ML/DL",
+            "development"
+        ],
+        "project_type": "pure 3rd-party package",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "matplotlib==3.5.3",
+                "traitlets==5.3",
+                "numpy==1.23.2",
+                "torch==1.8.1",
+                "scikit-learn==1.1.2",
+                "captum==0.3.1",
+                "torchvision==0.1.9",
+                "flask==2.2.2",
+                "pytext-nlp==0.1.3",
+                "ipywidgets==8.0.1"
+            ]
+        }
+    },
+    {
+        "id": 29,
+        "name": "arxiv-latex-cleaner",
+        "coderoot": "29/arxiv-latex-cleaner/arxiv_latex_cleaner",
+        "url": "https://github.com/google-research/arxiv-latex-cleaner",
+        "run": [
+            "cd arxiv-latex-cleaner && pip install . --no-deps"
+        ],
+        "cmd": "arxiv_latex_cleaner -h",
+        "desc": "arXiv LaTeX Cleaner: Easily clean the LaTeX code of your paper to submit to arXiv ",
+        "tag": [
+            "development",
+            "Internet"
+        ],
+        "project_type": "application",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "pyyaml==6",
+                "pillow==9.0.1",
+                "absl-py==1.2"
+            ]
+        }
+    },
+    {
+        "id": "3",
+        "name": "sktime",
+        "coderoot": "3/sktime/sktime",
+        "url": "https://github.com/alan-turing-institute/sktime",
+        "run": [],
+        "cmd": "cd sktime && python test.py",
+        "desc": "A unified framework for machine learning with time series ",
+        "tag": [
+            "ML/DL"
+        ],
+        "project_type": "pure 3rd-party package",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "numpy==1.17.5",
+                "setuptools==65.0.2",
+                "statsmodels==0.13.2",
+                "joblib==1.1",
+                "matplotlib==3.5.3",
+                "catch22==0.2.1",
+                "scipy==1.7.3",
+                "scikit-learn==0.23.2",
+                "numba==0.54.1",
+                "stumpy==1.11.1",
+                "pytest==7.1.2",
+                "pandas==1.3.5",
+                "hcrystalball==0.1.2",
+                "pmdarima==1.8.1",
+                "sktime==0.3"
+            ]
+        }
+    },
+    {
+        "id": 30,
+        "name": "GeneralNewsExtractor",
+        "coderoot": "30/GeneralNewsExtractor/gne",
+        "url": "https://github.com/kingname/GeneralNewsExtractor",
+        "run": [],
+        "cmd": "cd GeneralNewsExtractor && python test.py",
+        "desc": "\u65b0\u95fb\u7f51\u9875\u6b63\u6587\u901a\u7528\u62bd\u53d6\u5668 Beta \u7248. ",
+        "tag": [
+            "NLP"
+        ],
+        "project_type": "pure 3rd-party package",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "pyyaml==6",
+                "numpy==1.23.2",
+                "lxml==4.9.1"
+            ]
+        }
+    },
+    {
+        "id": 31,
+        "name": "DXY-COVID-19-Crawler",
+        "coderoot": "31/DXY-COVID-19-Crawler",
+        "url": "https://github.com/BlankerL/DXY-COVID-19-Crawler",
+        "run": [],
+        "cmd": "cd DXY-COVID-19-Crawler && python main.py",
+        "desc": "2019\u65b0\u578b\u51a0\u72b6\u75c5\u6bd2\u75ab\u60c5\u5b9e\u65f6\u722c\u866b\u53caAPI | COVID-19/2019-nCoV Realtime Infection Crawler and API ",
+        "tag": [
+            "Internet"
+        ],
+        "project_type": "application",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "pymongo==4.2",
+                "beautifulsoup4==4.11.1",
+                "requests==2.28.1"
+            ]
+        }
+    },
+    {
+        "id": 32,
+        "name": "pwnedOrNot",
+        "coderoot": "32/pwnedOrNot",
+        "url": "https://github.com/thewhiteh4t/pwnedOrNot",
+        "run": [],
+        "cmd": "cd pwnedOrNot && python pwnedornot.py -h",
+        "desc": "OSINT Tool for Finding Passwords of Compromised Email Addresses ",
+        "tag": [
+            "security"
+        ],
+        "project_type": "application",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "requests==2.28.1"
+            ]
+        }
+    },
+    {
+        "id": 33,
+        "name": "gplearn",
+        "coderoot": "33/gplearn/gplearn",
+        "url": "https://github.com/trevorstephens/gplearn",
+        "run": [],
+        "cmd": "cd gplearn && python test.py",
+        "desc": "Genetic Programming in Python, with a scikit-learn inspired API ",
+        "tag": [
+            "development"
+        ],
+        "project_type": "pure 3rd-party package",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "joblib==1.1",
+                "numpy==1.17",
+                "scipy==1.7.3",
+                "scikit-learn==0.23.2"
+            ]
+        }
+    },
+    {
+        "id": 34,
+        "name": "m2cgen",
+        "coderoot": "34/m2cgen/m2cgen",
+        "url": "https://github.com/BayesWitnesses/m2cgen",
+        "run": [
+            "pip install scikit-learn"
+        ],
+        "cmd": "cd m2cgen && python test.py",
+        "desc": "Transform ML models into a native code (Java, C, Python, Go, JavaScript, Visual Basic, C#, R, PowerShell, PHP, Dart, Haskell, Ruby) with zero dependencies ",
+        "tag": [
+            "ML/DL",
+            "development"
+        ],
+        "project_type": "pure 3rd-party package",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "numpy==1.23.2",
+                "scikit-learn==1.1.2"
+            ]
+        }
+    },
+    {
+        "id": 37,
+        "name": "springer_free_books",
+        "coderoot": "37/springer_free_books",
+        "url": "https://github.com/alexgand/springer_free_books",
+        "run": [],
+        "cmd": "cd springer_free_books && python main.py -i 2",
+        "desc": "Python script to download all Springer books released for free during the 2020 COVID-19 quarantine ",
+        "tag": [
+            "Internet"
+        ],
+        "project_type": "application",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "numpy==1.23.2",
+                "tqdm==4.64",
+                "beautifulsoup4==4.11.1",
+                "requests==2.28.1",
+                "openpyxl==3.2b1",
+                "pandas==1.4.3"
+            ]
+        }
+    },
+    {
+        "id": 41,
+        "name": "dongbei",
+        "coderoot": "41/dongbei",
+        "url": "https://github.com/zhanyong-wan/dongbei",
+        "run": [],
+        "cmd": "cd dongbei && test/dongbei_test.py",
+        "desc": "\u4e1c\u5317\u65b9\u8a00\u7f16\u7a0b\u8bed\u8a00 ",
+        "tag": [],
+        "project_type": "application",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "setuptools==65.0.2"
+            ]
+        }
+    },
+    {
+        "id": 43,
+        "name": "xxh",
+        "coderoot": "43/xxh/xxh_xxh",
+        "url": "https://github.com/xxh/xxh",
+        "run": [
+            "cd xxh && pip install . --no-deps"
+        ],
+        "cmd": "xxh -h",
+        "desc": "Bring your favorite shell wherever you go through the ssh ",
+        "tag": [
+            "development"
+        ],
+        "project_type": "application",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "pyyaml==6",
+                "pexpect==4.8"
+            ]
+        }
+    },
+    {
+        "id": 44,
+        "name": "blind_watermark",
+        "coderoot": "44/blind_watermark/blind_watermark",
+        "url": "https://github.com/guofei9987/blind_watermark",
+        "run": [],
+        "cmd": "cd blind_watermark && python test.py",
+        "desc": "Blind Watermark \uff08\u56fe\u7247\u76f2\u6c34\u5370\uff0c\u63d0\u53d6\u6c34\u5370\u65e0\u987b\u539f\u56fe\uff01\uff09 ",
+        "tag": [
+            "CV"
+        ],
+        "project_type": "application",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "numpy==1.17.5",
+                "pywavelets==1.3",
+                "opencv-python-headless==4.5.2.54"
+            ]
+        }
+    },
+    {
+        "id": 45,
+        "name": "pandarallel",
+        "coderoot": "45/pandarallel/pandarallel",
+        "url": "https://github.com/nalepae/pandarallel",
+        "run": [],
+        "cmd": "cd pandarallel && python test.py",
+        "desc": "A simple and efficient tool to parallelize Pandas operations on all available CPUs ",
+        "tag": [
+            "distribution"
+        ],
+        "project_type": "pure 3rd-party package",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "dill==0.3.5.1",
+                "pandas==1.4.3"
+            ]
+        }
+    },
+    {
+        "id": 46,
+        "name": "DecryptLogin",
+        "coderoot": "46/DecryptLogin/DecryptLogin",
+        "url": "https://github.com/CharlesPikachu/DecryptLogin",
+        "run": [],
+        "cmd": "cd DecryptLogin && python test.py",
+        "desc": "APIs for loginning some websites using requests. ",
+        "tag": [
+            "Internet"
+        ],
+        "project_type": "pure 3rd-party package",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "qrcode==7.3.1",
+                "pyexecjs==1.5.1",
+                "pycryptodome==3.15",
+                "rsa==4.9",
+                "requests==2.28.1",
+                "requests-toolbelt==0.9.1"
+            ]
+        }
+    },
+    {
+        "id": 47,
+        "name": "webpy",
+        "coderoot": "47/webpy/web",
+        "url": "https://github.com/webpy/webpy",
+        "run": [],
+        "cmd": "cd webpy && python test.py",
+        "desc": "web.py is a web framework for python that is as simple as it is powerful. ",
+        "tag": [],
+        "project_type": "pure 3rd-party package",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "micropython-posixpath==0",
+                "cheroot==8.6"
+            ]
+        }
+    },
+    {
+        "id": 48,
+        "name": "SSRFmap",
+        "coderoot": "48/SSRFmap",
+        "url": "https://github.com/swisskyrepo/SSRFmap",
+        "run": [],
+        "cmd": "cd SSRFmap && python ssrfmap.py -r data/request.txt -p url -m readfiles,portscan",
+        "desc": "Automatic SSRF fuzzer and exploitation tool ",
+        "tag": [
+            "Internet"
+        ],
+        "project_type": "application",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "urllib3==1.26.11",
+                "requests==2.28.1",
+                "flask==2.2.2"
+            ]
+        }
+    },
+    {
+        "id": "5",
+        "name": "Python-crawler-tutorial-starts-from-zero",
+        "coderoot": "5/Python-crawler-tutorial-starts-from-zero/code_demo",
+        "url": "https://github.com/Kr1s77/Python-crawler-tutorial-starts-from-zero",
+        "run": [],
+        "cmd": "python Python-crawler-tutorial-starts-from-zero/code_demo/Tieba.py",
+        "desc": "python\u722c\u866b\u6559\u7a0b\uff0c\u5e26\u4f60\u4ece\u96f6\u5230\u4e00\uff0c\u5305\u542bjs\u9006\u5411\uff0cselenium, tesseract OCR\u8bc6\u522b,mongodb\u7684\u4f7f\u7528\uff0c\u4ee5\u53cascrapy\u6846\u67b6 ",
+        "tag": [
+            "Internet",
+            "database"
+        ],
+        "project_type": "tutorial",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "requests==2.28.1"
+            ]
+        }
+    },
+    {
+        "id": 50,
+        "name": "lambda-networks",
+        "coderoot": "50/lambda-networks/lambda_networks",
+        "url": "https://github.com/lucidrains/lambda-networks",
+        "run": [],
+        "cmd": "cd lambda-networks && python test.py",
+        "desc": "Implementation of LambdaNetworks, a new approach to image recognition that reaches SOTA with less compute ",
+        "tag": [
+            "ML/DL",
+            "CV"
+        ],
+        "project_type": "pure 3rd-party package",
+        "envs": {
+            "pyver": "3.6.15",
+            "pv_list": [
+                "einops==0.4.1",
+                "torch==1.10.2",
+                "tensorflow==1.11"
+            ]
+        }
+    },
+    {
+        "id": 52,
+        "name": "pytorch-openai-transformer-lm",
+        "coderoot": "52/pytorch-openai-transformer-lm",
+        "url": "https://github.com/huggingface/pytorch-openai-transformer-lm",
+        "run": [],
+        "cmd": "cd pytorch-openai-transformer-lm && python test.py",
+        "desc": "A PyTorch implementation of OpenAI's finetuned transformer language model with a script to import the weights pre-trained by OpenAI ",
+        "tag": [
+            "ML/DL",
+            "NLP"
+        ],
+        "project_type": "pure 3rd-party package",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "tqdm==4.64",
+                "numpy==1.23.2",
+                "torch==1.8.1",
+                "scikit-learn==1.1.2",
+                "ftfy==6.1.1",
+                "pandas==1.4.3",
+                "spacy==3.4.1"
+            ]
+        }
+    },
+    {
+        "id": 53,
+        "name": "pwncat",
+        "coderoot": "53/pwncat/pwncat",
+        "url": "https://github.com/calebstewart/pwncat",
+        "run": [
+            "cd pwncat && pip install . --no-deps"
+        ],
+        "cmd": "cd pwncat && pwncat 133.133.133.47:8000",
+        "desc": "Fancy reverse and bind shell handler ",
+        "tag": [
+            "Internet",
+            "security"
+        ],
+        "project_type": "application",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "btrees==4.6.1",
+                "pyrapidjson==0.5.1",
+                "pygments==2.13",
+                "persistent==4.9",
+                "pycryptodome==3.15",
+                "setuptools==65.0.2",
+                "netifaces==0.11",
+                "zodb==5.7",
+                "rich==12.5.1",
+                "prompt-toolkit==3.0.30",
+                "packaging==21.3",
+                "paramiko==2.11",
+                "jinja2==3.1.2",
+                "requests==2.28.1",
+                "zodburi==2.5"
+            ]
+        }
+    },
+    {
+        "id": 54,
+        "name": "uncertainty-toolbox",
+        "coderoot": "54/uncertainty-toolbox/uncertainty_toolbox",
+        "url": "https://github.com/uncertainty-toolbox/uncertainty-toolbox",
+        "run": [],
+        "cmd": "cd uncertainty-toolbox && python test.py",
+        "desc": "A python toolbox for predictive uncertainty quantification, calibration, metrics, and visualization ",
+        "tag": [
+            "development"
+        ],
+        "project_type": "pure 3rd-party package",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "tqdm==4.64",
+                "matplotlib==3.5.3",
+                "numpy==1.16.6",
+                "shapely==2a1",
+                "scipy==1.7.3",
+                "scikit-learn==1.0.2",
+                "seaborn==0.11.2"
+            ]
+        }
+    },
+    {
+        "id": 55,
+        "name": "SSRSpeed",
+        "coderoot": "55/SSRSpeed",
+        "url": "https://github.com/NyanChanMeow/SSRSpeed",
+        "run": [],
+        "cmd": "cd SSRSpeed && python main.py -c ssrspeed_config.example.json --include \u97e9\u56fd --include-remark Azure --include-group YoYu",
+        "desc": "Shadowsocks(R), V2Ray Batch Speed Test Tool ",
+        "tag": [
+            "Internet"
+        ],
+        "project_type": "application",
+        "envs": {
+            "pyver": "3.6.15",
+            "pv_list": [
+                "setuptools==59.6",
+                "pysocks==1.7.1",
+                "nose==1.3.7",
+                "pillow-simd==8.4.post0",
+                "pyyaml==6",
+                "config==0.5.1",
+                "pyspeed==0.1.1",
+                "pynat==0.6.2",
+                "werkzeug==2.0.3",
+                "dlorenc-requests==2.24.4",
+                "aiohttp==4a1",
+                "aiohttp-socks==0.7.1",
+                "flask==2.0.3",
+                "flask-cors==3.0.10"
+            ]
+        }
+    },
+    {
+        "id": 56,
+        "name": "dirsearch",
+        "coderoot": "56/dirsearch",
+        "url": "https://github.com/maurosoria/dirsearch",
+        "run": [],
+        "cmd": "cd dirsearch && python dirsearch.py http://www.watchman-pypi.com",
+        "desc": "Web path scanner ",
+        "tag": [
+            "Internet"
+        ],
+        "project_type": "application",
+        "envs": {
+            "pyver": "3.6.15",
+            "pv_list": [
+                "pyasn1==0.4.6",
+                "python-ntlm==1.1",
+                "byteark==0.0.12",
+                "certifi==2022.6.15",
+                "pyopenssl==22"
+            ]
+        }
+    },
+    {
+        "id": 57,
+        "name": "commitment",
+        "coderoot": "57/commitment",
+        "url": "https://github.com/ngerakines/commitment",
+        "run": [],
+        "cmd": "cd commitment && python commit.py",
+        "desc": "A commit message generator that I use. ",
+        "tag": [],
+        "project_type": "application",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "tornado==6.2"
+            ]
+        }
+    },
+    {
+        "id": 58,
+        "name": "30-Days-Of-Python",
+        "coderoot": "58/30-Days-Of-Python/python_for_web",
+        "url": "https://github.com/Asabeneh/30-Days-Of-Python",
+        "run": [],
+        "cmd": "cd 30-Days-Of-Python/python_for_web && python app.py",
+        "desc": " 30 days of Python programming challenge is a step by step guide to learn the Python programming language in 30 days. This challenge may take up to 100 days, follow your own pace. ",
+        "tag": [],
+        "project_type": "tutorial",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "flask==2.2.2"
+            ]
+        }
+    },
+    {
+        "id": "6",
+        "name": "jd-assistant",
+        "coderoot": "6/jd-assistant",
+        "url": "https://github.com/tychxn/jd-assistant",
+        "run": [],
+        "cmd": "cd jd-assistant && python main.py",
+        "desc": "\u4eac\u4e1c\u62a2\u8d2d\u52a9\u624b\uff1a\u5305\u542b\u767b\u5f55\uff0c\u67e5\u8be2\u5546\u54c1\u5e93\u5b58/\u4ef7\u683c\uff0c\u6dfb\u52a0/\u6e05\u7a7a\u8d2d\u7269\u8f66\uff0c\u62a2\u8d2d\u5546\u54c1(\u4e0b\u5355)\uff0c\u67e5\u8be2\u8ba2\u5355\u7b49\u529f\u80fd ",
+        "tag": [
+            "Internet"
+        ],
+        "project_type": "application",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "pycryptodome==3.15",
+                "beautifulsoup4==4.11.1",
+                "requests==2.28.1"
+            ]
+        }
+    },
+    {
+        "id": 60,
+        "name": "galaxy-integrations-python-api",
+        "coderoot": "60/galaxy-integrations-python-api/src/galaxy",
+        "url": "https://github.com/gogcom/galaxy-integrations-python-api",
+        "run": [],
+        "cmd": "cd galaxy-integrations-python-api/src && python test.py",
+        "desc": "NOTE: Please report here only issues related to the python API. Issues and general feedback regarding the Galaxy Client 2.0 shall be sent via Galaxy Client menu ",
+        "tag": [
+            "development"
+        ],
+        "project_type": "pure 3rd-party package",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "certifi==2022.6.15",
+                "aiohttp==4a1"
+            ]
+        }
+    },
+    {
+        "id": 61,
+        "name": "mitm6",
+        "coderoot": "61/mitm6/mitm6",
+        "url": "https://github.com/fox-it/mitm6",
+        "run": [
+            "cd mitm6 && pip install . --no-deps"
+        ],
+        "cmd": "mitm6 -h",
+        "desc": "pwning IPv4 via IPv6 ",
+        "tag": [
+            "Internet"
+        ],
+        "project_type": "application",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "scapy==2.4.5",
+                "netifaces==0.11",
+                "twisted==22.4"
+            ]
+        }
+    },
+    {
+        "id": 62,
+        "name": "flask-celery-example",
+        "coderoot": "62/flask-celery-example",
+        "url": "https://github.com/miguelgrinberg/flask-celery-example",
+        "run": [],
+        "cmd": "cd flask-celery-example && python app.py",
+        "desc": "This repository contains the example code for my blog article Using Celery with Flask. ",
+        "tag": [],
+        "project_type": "application",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "flask-mail==0.9.1",
+                "flask==2.2.2",
+                "celery==5.3b1"
+            ]
+        }
+    },
+    {
+        "id": 63,
+        "name": "proxylessnas",
+        "coderoot": "63/proxylessnas/proxyless_nas",
+        "url": "https://github.com/mit-han-lab/proxylessnas",
+        "run": [],
+        "cmd": "cd proxylessnas && python test.py",
+        "desc": "[ICLR 2019] ProxylessNAS: Direct Neural Architecture Search on Target Task and Hardware ",
+        "tag": [
+            "ML/DL"
+        ],
+        "project_type": "pure 3rd-party package",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "torch==1.12.1"
+            ]
+        }
+    },
+    {
+        "id": 64,
+        "name": "sweetviz",
+        "coderoot": "64/sweetviz/sweetviz",
+        "url": "https://github.com/fbdesignpro/sweetviz",
+        "run": [
+            "pip install pandas"
+        ],
+        "cmd": "cd sweetviz && python test.py",
+        "desc": "Visualize and compare datasets, target values and associations, with one line of code",
+        "tag": [
+            "development"
+        ],
+        "project_type": "pure 3rd-party package",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "tqdm==4.64",
+                "setuptools==65.0.2",
+                "matplotlib==3.3.4",
+                "numpy==1.23.2",
+                "scipy==1.9",
+                "jinja2==3.1.2",
+                "pandas==1.4.3"
+            ]
+        }
+    },
+    {
+        "id": 65,
+        "name": "policy_sentry",
+        "coderoot": "65/policy_sentry/policy_sentry",
+        "url": "https://github.com/salesforce/policy_sentry",
+        "run": [
+            "cd policy_sentry && pip install . --no-deps"
+        ],
+        "cmd": "policy_sentry create-template --output-file crud.yml --template-type crud",
+        "desc": "IAM Least Privilege Policy Generator ",
+        "tag": [
+            "development"
+        ],
+        "project_type": "application",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "pyyaml==6",
+                "click==8.1.3",
+                "beautifulsoup4==4.11.1",
+                "requests==2.28.1",
+                "schema==0.7.5"
+            ]
+        }
+    },
+    {
+        "id": 66,
+        "name": "noisy",
+        "coderoot": "66/noisy",
+        "url": "https://github.com/1tayH/noisy",
+        "run": [],
+        "cmd": "cd noisy && python noisy.py --config config.json",
+        "desc": "Simple random DNS, HTTP/S internet traffic noise generator ",
+        "tag": [
+            "development",
+            "Internet",
+            "security"
+        ],
+        "project_type": "application",
+        "envs": {
+            "pyver": "2.7.18",
+            "pv_list": [
+                "urllib3==1.26.11",
+                "requests==2.27.1"
+            ]
+        }
+    },
+    {
+        "id": 67,
+        "name": "pytorch-meta",
+        "coderoot": "67/pytorch-meta/torchmeta",
+        "url": "https://github.com/tristandeleu/pytorch-meta",
+        "run": [],
+        "cmd": "cd pytorch-meta && python test.py",
+        "desc": "A collection of extensions and data-loaders for few-shot learning & meta-learning in PyTorch ",
+        "tag": [
+            "ML/DL"
+        ],
+        "project_type": "pure 3rd-party package",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "ordered-set==4.1",
+                "numpy==1.17.5",
+                "pillow==9.0.1",
+                "torch==1.12.1",
+                "h5py==3.7",
+                "torchvision==0.12",
+                "pytest==7.1.2"
+            ]
+        }
+    },
+    {
+        "id": 68,
+        "name": "path",
+        "coderoot": "68/path/path",
+        "url": "https://github.com/jaraco/path",
+        "run": [],
+        "cmd": "cd path && python test.py",
+        "desc": "Object-oriented file system path manipulation ",
+        "tag": [
+            "development"
+        ],
+        "project_type": "pure 3rd-party package",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "path-py==12.5"
+            ]
+        }
+    },
+    {
+        "id": 69,
+        "name": "WeblogicScan",
+        "coderoot": "69/WeblogicScan",
+        "url": "https://github.com/rabbitmask/WeblogicScan",
+        "run": [],
+        "cmd": "cd WeblogicScan && python WeblogicScan.py -u 127.0.0.1 -p 7001",
+        "desc": "Weblogic\u4e00\u952e\u6f0f\u6d1e\u68c0\u6d4b\u5de5\u5177\uff0cV1.5\uff0c\u66f4\u65b0\u65f6\u95f4\uff1a20200730 ",
+        "tag": [
+            "Internet",
+            "security"
+        ],
+        "project_type": "application",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "requests==2.28.1"
+            ]
+        }
+    },
+    {
+        "id": "7",
+        "name": "autoscraper",
+        "coderoot": "7/autoscraper/autoscraper",
+        "url": "https://github.com/alirezamika/autoscraper",
+        "run": [],
+        "cmd": "cd autoscraper && python test.py",
+        "desc": "A Smart, Automatic, Fast and Lightweight Web Scraper for Python ",
+        "tag": [
+            "Internet"
+        ],
+        "project_type": "pure 3rd-party package",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "beautifulsoup4==4.11.1",
+                "requests==2.28.1"
+            ]
+        }
+    },
+    {
+        "id": 70,
+        "name": "heartrate",
+        "coderoot": "70/heartrate/heartrate",
+        "url": "https://github.com/alexmojaki/heartrate",
+        "run": [],
+        "cmd": "cd heartrate && python test.py",
+        "desc": "Simple real time visualisation of the execution of a Python program. ",
+        "tag": [
+            "development"
+        ],
+        "project_type": "pure 3rd-party package",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "pygments==2.13",
+                "executing==0.4.3",
+                "flask==2.2.2"
+            ]
+        }
+    },
+    {
+        "id": 72,
+        "name": "karateclub",
+        "coderoot": "72/karateclub/karateclub",
+        "url": "https://github.com/benedekrozemberczki/karateclub",
+        "run": [
+            "pip install networkx"
+        ],
+        "cmd": "cd karateclub && python test.py",
+        "desc": "Karate Club: An API Oriented Open-source Python Framework for Unsupervised Learning on Graphs (CIKM 2020) ",
+        "tag": [
+            "ML/DL"
+        ],
+        "project_type": "pure 3rd-party package",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "networkx==0.37",
+                "python-louvain==0.16",
+                "numpy==1.23.2",
+                "six==1.16",
+                "scipy==1.9",
+                "gensim==4.2",
+                "scikit-learn==1.1.2",
+                "pygsp==0.5.1",
+                "pandas==1.4.3"
+            ]
+        }
+    },
+    {
+        "id": 73,
+        "name": "archivy",
+        "coderoot": "73/archivy/archivy",
+        "url": "https://github.com/archivy/archivy",
+        "run": [
+            "cd archivy && pip install . --no-deps"
+        ],
+        "cmd": "archivy --help",
+        "desc": "Archivy is a self-hosted knowledge repository that allows you to safely preserve useful content that contributes to your own personal, searchable and extendable wiki. ",
+        "tag": [
+            "database"
+        ],
+        "project_type": "application",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "validators==0.20",
+                "setuptools==65.0.2",
+                "tinydb==4.7",
+                "appdirs==1.4.4",
+                "attrs==22.1",
+                "pyyaml==6",
+                "click==8.1.3",
+                "html2text==2020.1.16",
+                "click-plugins==1.1.1",
+                "beautifulsoup4==4.11.1",
+                "wtforms==3.0.1",
+                "werkzeug==2.2.2",
+                "python-frontmatter==1",
+                "jinja2==3.1.2",
+                "requests==2.28.1",
+                "flask==2.2.2",
+                "flask-wtf==1.0.1",
+                "flask-compress==1.12",
+                "flask-login==0.6.2",
+                "elasticsearch==8.3.3"
+            ]
+        }
+    },
+    {
+        "id": 74,
+        "name": "gcn",
+        "coderoot": "74/gcn/gcn",
+        "url": "https://github.com/tkipf/gcn",
+        "run": [],
+        "cmd": "cd gcn && python train.py",
+        "desc": "Implementation of Graph Convolutional Networks in TensorFlow ",
+        "tag": [
+            "ML/DL"
+        ],
+        "project_type": "application",
+        "envs": {
+            "pyver": "3.6.15",
+            "pv_list": [
+                "numpy==1.19.5",
+                "scipy==1.5.4",
+                "networkx==2.5.1",
+                "tensorflow==1.11"
+            ]
+        }
+    },
+    {
+        "id": 75,
+        "name": "sentry-python",
+        "coderoot": "75/sentry-python/sentry_sdk",
+        "url": "https://github.com/getsentry/sentry-python",
+        "run": [],
+        "cmd": "cd sentry-python && python test.py",
+        "desc": "The new Python SDK for Sentry.io ",
+        "tag": [
+            "development"
+        ],
+        "project_type": "pure 3rd-party package",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "certifi==2022.6.15",
+                "urllib3==1.26.11",
+                "django==4.1",
+                "pyramid==2",
+                "trytond==6.4.4",
+                "chalice==1.27.1"
+            ]
+        }
+    },
+    {
+        "id": 76,
+        "name": "django-vue-template",
+        "coderoot": "76/django-vue-template",
+        "url": "https://github.com/gtalarico/django-vue-template",
+        "run": [],
+        "cmd": "cd django-vue-template && python manage.py runserver",
+        "desc": "Django Rest + Vue JS Template ",
+        "tag": [],
+        "project_type": "application",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "dj-database-url==1",
+                "whitenoise==6.2",
+                "packt==1.5.3",
+                "django==4.1",
+                "djangorestframework==3.13.1"
+            ]
+        }
+    },
+    {
+        "id": 78,
+        "name": "kaldi-gstreamer-server",
+        "coderoot": "78/kaldi-gstreamer-server/kaldigstserver",
+        "url": "https://github.com/alumae/kaldi-gstreamer-server",
+        "run": [],
+        "cmd": "cd kaldi-gstreamer-server && python kaldigstserver/master_server.py --port=8888",
+        "desc": "Real-time full-duplex speech recognition server, based on the Kaldi toolkit and the GStreamer framwork. ",
+        "tag": [
+            "Internet"
+        ],
+        "project_type": "application",
+        "envs": {
+            "pyver": "2.7.18",
+            "pv_list": [
+                "tornado==5.1.1",
+                "pygobject==3.36.1",
+                "ws4py==0.5.1",
+                "pyyaml==5.4.1"
+            ]
+        }
+    },
+    {
+        "id": 81,
+        "name": "nba_api",
+        "coderoot": "81/nba_api/nba_api",
+        "url": "https://github.com/swar/nba_api",
+        "run": [],
+        "cmd": "cd nba_api && python test.py",
+        "desc": "An API Client package to access the APIs for NBA.com ",
+        "tag": [
+            "Internet"
+        ],
+        "project_type": "pure 3rd-party package",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "requests==2.28.1"
+            ]
+        }
+    },
+    {
+        "id": 82,
+        "name": "micronet",
+        "coderoot": "82/micronet/micronet",
+        "url": "https://github.com/666DZY666/micronet",
+        "run": [],
+        "cmd": "cd micronet && python -c \"import micronet; print(micronet.__version__)\"",
+        "desc": "micronet, a model compression and deploy lib. compression: 1\u3001quantization: quantization-aware-training(QAT), High-Bit(>2b)(DoReFa/Quantization and Training of Neural Networks for Efficient Integer-Arithmetic-Only Inference)\u3001Low-Bit(\u22642b)/Ternary and Binary(TWN/BNN/XNOR-Net); post-training-quantization(PTQ), 8-bit(tensorrt); 2\u3001 pruning: normal\u3001reg\u2026",
+        "tag": [
+            "ML/DL"
+        ],
+        "project_type": "pure 3rd-party package",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "numpy==1.23.2",
+                "pycuda==2022.1",
+                "torch==1.8.1",
+                "torchvision==0.1.9"
+            ]
+        }
+    },
+    {
+        "id": 83,
+        "name": "pke",
+        "coderoot": "83/pke/pke",
+        "url": "https://github.com/boudinfl/pke",
+        "run": [
+            "python -m nltk.downloader stopwords && python -m nltk.downloader universal_tagset && python -m spacy download en"
+        ],
+        "cmd": "cd pke && python test.py",
+        "desc": " Python Keyphrase Extraction module ",
+        "tag": [
+            "ML/DL",
+            "NLP"
+        ],
+        "project_type": "pure 3rd-party package",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "networkx==0.37",
+                "six==1.16",
+                "joblib==1.1",
+                "numpy==1.23.2",
+                "nltk==3.7",
+                "scipy==1.9",
+                "scikit-learn==1.1.2",
+                "spacy==3.4.1"
+            ]
+        }
+    },
+    {
+        "id": 85,
+        "name": "pygooglenews",
+        "coderoot": "85/pygooglenews/pygooglenews",
+        "url": "https://github.com/kotartemiy/pygooglenews",
+        "run": [],
+        "cmd": "cd pygooglenews && python test.py",
+        "desc": "If Google News had a Python library ",
+        "tag": [
+            "Internet"
+        ],
+        "project_type": "pure 3rd-party package",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "requests==2.28.1",
+                "beautifulsoup4==4.11.1",
+                "feedparser==6.0.10",
+                "dateparser==1.1.1"
+            ]
+        }
+    },
+    {
+        "id": 86,
+        "name": "petastorm",
+        "coderoot": "86/petastorm/petastorm",
+        "url": "https://github.com/uber/petastorm",
+        "run": [],
+        "cmd": "cd petastorm && python test.py",
+        "desc": "Petastorm library enables single machine or distributed training and evaluation of deep learning models from datasets in Apache Parquet format. It supports ML frameworks such as Tensorflow, Pytorch, and PySpark and can be used from pure Python code. ",
+        "tag": [
+            "ML/DL"
+        ],
+        "project_type": "pure 3rd-party package",
+        "envs": {
+            "pyver": "3.6.15",
+            "pv_list": [
+                "pyspark==3.2.2",
+                "six==1.16",
+                "future==0.18.2",
+                "mock==1.0.1",
+                "numpy==1.16.6",
+                "psutil==5.9.1",
+                "pytz==2022.2.1",
+                "py4j==0.10.9.7",
+                "pillow==8.4",
+                "micropython-posixpath==0",
+                "pyzmq==23.2.1",
+                "diskcache==5.4",
+                "dill==0.3.4",
+                "pyarrow==1.0.1",
+                "torch==1.7.1",
+                "pandas==0.25.3",
+                "packaging==21.3",
+                "pytest==7.0.1",
+                "tensorflow==1.11",
+                "s3fs==2022.1"
+            ]
+        }
+    },
+    {
+        "id": 87,
+        "name": "blackhat-python3",
+        "coderoot": "87/blackhat-python3/chapter04",
+        "url": "https://github.com/EONRaider/blackhat-python3",
+        "run": [],
+        "cmd": "cd blackhat-python3/chapter04 && python pic_carver.py",
+        "desc": "Source code for the book \"Black Hat Python\" by Justin Seitz. The code has been fully converted to Python 3, reformatted to comply with PEP8 standards and refactored to eliminate dependency issues involving the implementation of deprecated libraries.",
+        "tag": [
+            "security"
+        ],
+        "project_type": "tutorial",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "kamene==0.32",
+                "opencv-python-headless==4.6.0.66"
+            ]
+        }
+    },
+    {
+        "id": 88,
+        "name": "neural_prophet",
+        "coderoot": "88/neural_prophet/neuralprophet",
+        "url": "https://github.com/ourownstory/neural_prophet",
+        "run": [],
+        "cmd": "cd neural_prophet && python test.py",
+        "desc": "NeuralProphet - A simple forecasting model based on Neural Networks in PyTorch ",
+        "tag": [
+            "ML/DL"
+        ],
+        "project_type": "pure 3rd-party package",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "tqdm==4.64",
+                "numpy==1.23.2",
+                "holidays==0.9.12",
+                "torch==1.8.1",
+                "convertdate==2.4",
+                "attrdict==2.0.1",
+                "python-dateutil==2.8.2",
+                "pandas==1.4.3",
+                "lunarcalendar==0.0.9",
+                "torch-lr-finder==0.2.1"
+            ]
+        }
+    },
+    {
+        "id": "9",
+        "name": "pipx",
+        "coderoot": "9/pipx/src/pipx",
+        "url": "https://github.com/pipxproject/pipx",
+        "run": [
+            "cd pipx && pip install . --no-deps"
+        ],
+        "cmd": "pipx completions",
+        "desc": "Install and Run Python Applications in Isolated Environments ",
+        "tag": [
+            "development"
+        ],
+        "project_type": "application",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "argcomplete==2",
+                "packaging==21.3",
+                "userpath==1.8"
+            ]
+        }
+    },
+    {
+        "id": 90,
+        "name": "SimpleHTR",
+        "coderoot": "90/SimpleHTR/src",
+        "url": "https://github.com/githubharald/SimpleHTR",
+        "run": [],
+        "cmd": "cd SimpleHTR/src && python main.py",
+        "desc": "Handwritten Text Recognition (HTR) system implemented with TensorFlow. ",
+        "tag": [
+            "ML/DL",
+            "NLP",
+            "CV"
+        ],
+        "project_type": "application",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "matplotlib==3.5.3",
+                "numpy==1.23.2",
+                "editdistance==0.6",
+                "opencv-python-headless==4.6.0.66",
+                "tensorflowjs==3.19"
+            ]
+        }
+    },
+    {
+        "id": 91,
+        "name": "SuperGluePretrainedNetwork",
+        "coderoot": "91/SuperGluePretrainedNetwork",
+        "url": "https://github.com/magicleap/SuperGluePretrainedNetwork",
+        "run": [],
+        "cmd": "cd SuperGluePretrainedNetwork && python match_pairs.py",
+        "desc": "SuperGlue: Learning Feature Matching with Graph Neural Networks (CVPR 2020, Oral) ",
+        "tag": [
+            "ML/DL",
+            "CV"
+        ],
+        "project_type": "application",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "matplotlib==3.5.3",
+                "numpy==1.23.2",
+                "torch==1.7.1",
+                "opencv-python-headless==4.6.0.66"
+            ]
+        }
+    },
+    {
+        "id": 92,
+        "name": "SuperPointPretrainedNetwork",
+        "coderoot": "92/SuperPointPretrainedNetwork",
+        "url": "https://github.com/magicleap/SuperPointPretrainedNetwork",
+        "run": [],
+        "cmd": "cd SuperPointPretrainedNetwork&& ./demo_superpoint.py assets/icl_snippet/ --W=640 --H=480 --no_display --write --write_dir=myoutput/",
+        "desc": "PyTorch pre-trained model for real-time interest point detection, description, and sparse tracking ",
+        "tag": [
+            "ML/DL",
+            "CV"
+        ],
+        "project_type": "application",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "numpy==1.23.2",
+                "opencv-python-headless==4.6.0.66",
+                "torch==1.12.1"
+            ]
+        }
+    },
+    {
+        "id": 93,
+        "name": "Packer-Fuzzer",
+        "coderoot": "93/Packer-Fuzzer",
+        "url": "https://github.com/rtcatc/Packer-Fuzzer",
+        "run": [],
+        "cmd": "cd Packer-Fuzzer && python PackerFuzzer.py -u http://133.133.133.47:8000",
+        "desc": "Packer Fuzzer is a fast and efficient scanner for security detection of websites constructed by javascript module bundler such as Webpack. ",
+        "tag": [
+            "Internet",
+            "security"
+        ],
+        "project_type": "application",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "urllib3==1.26.11",
+                "python-docx==0.8.11",
+                "tqdm==4.35",
+                "beautifulsoup4==4.11.1",
+                "requests==2.28.1",
+                "docx2pdf==0.1.8",
+                "docx2txt==0.8",
+                "node-vm2==0.4.4"
+            ]
+        }
+    },
+    {
+        "id": 94,
+        "name": "efficientnet",
+        "coderoot": "94/efficientnet/efficientnet",
+        "url": "https://github.com/qubvel/efficientnet",
+        "run": [
+            "pip install keras"
+        ],
+        "cmd": "cd efficientnet && python test.py",
+        "desc": "Implementation of EfficientNet model. Keras and TensorFlow Keras. ",
+        "tag": [
+            "ML/DL",
+            "CV"
+        ],
+        "project_type": "pure 3rd-party package",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "six==1.16",
+                "numpy==1.23.2",
+                "keras-applications==1.0.8",
+                "scikit-image==0.19.3",
+                "tensorflow==2.10rc1"
+            ]
+        }
+    },
+    {
+        "id": 95,
+        "name": "tensorflow-yolov3",
+        "coderoot": "95/tensorflow-yolov3/",
+        "url": "https://github.com/YunYang1994/tensorflow-yolov3",
+        "run": [],
+        "cmd": "cd tensorflow-yolov3 && python image_demo.py",
+        "desc": "TensorFlow Code for technical report: \"YOLOv3: An Incremental Improvement\"",
+        "tag": [
+            "ML/DL",
+            "CV"
+        ],
+        "project_type": "application",
+        "envs": {
+            "pyver": "3.6.15",
+            "pv_list": [
+                "easydict==1.9",
+                "numpy==1.19.5",
+                "pillow==8.4",
+                "opencv-python-headless==4.6.0.66",
+                "tqdm==4.64",
+                "tensorflow==1.11"
+            ]
+        }
+    },
+    {
+        "id": 97,
+        "name": "mars",
+        "coderoot": "97/mars/mars",
+        "url": "https://github.com/mars-project/mars",
+        "run": [
+            "pip install mars --no-deps"
+        ],
+        "cmd": "cd mars/tests && python test.py",
+        "desc": "Mars is a tensor-based unified framework for large-scale data computation which scales Numpy, Pandas and Scikit-learn.",
+        "tag": [
+            "ML/DL"
+        ],
+        "project_type": "pure 3rd-party package",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "cloudpickle==2.1",
+                "gevent==21.12",
+                "numpy==1.17.5",
+                "scipy==1.8.1",
+                "psutil==5.9.1",
+                "pytz==2022.2.1",
+                "tornado==6.2",
+                "scikit-learn==1.1.2",
+                "jinja2==3.1.2",
+                "requests==2.28.1",
+                "pandas==1.3.5",
+                "bokeh==3.dev11",
+                "pytest==7.1.2",
+                "pymars==0.10a1",
+                "tensorflow==2.7.3"
+            ]
+        }
+    },
+    {
+        "id": 98,
+        "name": "peru",
+        "coderoot": "98/peru/peru",
+        "url": "https://github.com/buildinspace/peru",
+        "run": [
+            "cd peru && pip install . --no-deps"
+        ],
+        "cmd": "cd peru && peru sync",
+        "desc": "a generic package manager, for including other people's code in your projects ",
+        "tag": [
+            "development"
+        ],
+        "project_type": "application",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "docopt==0.6.2",
+                "pyyaml==6"
+            ]
+        }
+    },
+    {
+        "id": 99,
+        "name": "starlette",
+        "coderoot": "99/starlette/starlette",
+        "url": "https://github.com/encode/starlette",
+        "run": [],
+        "cmd": "cd starlette && python test.py",
+        "desc": "The little ASGI framework that shines",
+        "tag": [
+            "database"
+        ],
+        "project_type": "pure 3rd-party package",
+        "envs": {
+            "pyver": "3.9.13",
+            "pv_list": [
+                "aiofiles==0.8",
+                "itsdangerous==2.1.2"
+            ]
+        }
+    }
+]

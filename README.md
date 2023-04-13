@@ -24,7 +24,7 @@ Install Docker and Neo4j (requires Java SE 11):
 | Docker  | 20.10.22 |
 | Neo4j   | 4.3.10   |
 
-We have openned our pre-built knowledge graphs (for package sets S<sub>0</sub> and S<sub>1</sub>) and self-built IntegrGitHub dataset in [releases](https://github.com/nju-websoft/ReadPyE/releases). 
+We have openned our pre-built **knowledge graphs** (for package sets S<sub>0</sub> and S<sub>1</sub>), self-built **IntegrGitHub dataset**, and **experimental results** as two online resources: [resource 0](https://figshare.com/articles/online_resource/Revisiting_Knowledge-Based_Inference_of_Python_Runtime_Environments_A_Realistic_and_Adaptive_Approach/22590364) and [resource 1](https://figshare.com/articles/online_resource/Revisiting_Knowledge-Based_Inference_of_Python_Runtime_Environments_A_Realistic_and_Adaptive_Approach/22597234). 
 
 Restore one database dump:
 
@@ -106,7 +106,3 @@ RUN pip install pyasn1==0.5rc1
 RUN pip install mysqlclient==1.4.6
 RUN pip install zope-interface==5.5.dev0
 ```
-
-## Experimental results
-
-The experimental results have opened in [figshare](https://figshare.com/articles/online_resource/Revisiting_Knowledge-Based_Inference_of_Python_Runtime_Environments_A_Realistic_and_Adaptive_Approach/22590364), including comparative methods, main experiments,  parametric experiments, and ablation experiments.
