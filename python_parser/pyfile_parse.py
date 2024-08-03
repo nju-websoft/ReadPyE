@@ -492,17 +492,13 @@ class astVisiter(object):
                     for item in left_variables:
                         self.assign_mappings.pop(item, None)
 
-            for child in node.children:
-                self.walk_ast(child)
-
-
         elif node_type == 'attribute' or node_type == 'call':
             attr = self._get_primary_expression(node)
             if attr:
                 self._save_attribute(attr)
 
         for child in node.children:
-                self.walk_ast(child)
+            self.walk_ast(child)
     
 
     def _get_primary_expression(self, node):
